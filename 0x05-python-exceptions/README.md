@@ -2,7 +2,7 @@
 ### 0. Safe list printing
 #### mandatory
 Write a function that prints x elements of a list.
-```
+
 * my_list can contain any type (integer, string, etc.)
 * All elements must be printed on the same line followed by a new line.
 * x represents the number of elements to print
