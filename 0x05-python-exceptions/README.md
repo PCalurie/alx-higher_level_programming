@@ -1,5 +1,7 @@
 # 0x05-python-exceptions
 ### 0. Safe list printing
+This is a Python project that covers the topic of exceptions. Exceptions are events that occur during the execution of a program that disrupt the normal flow of instructions.
+https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/070710952984e4d126e114405cefe83af2271ce8.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230628%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230628T102021Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ddd1d76c750eb70fffe402c62926c4ef93b34894d320a77bbc5cf6068b5e8d35
 #### mandatory
 Write a function that prints x elements of a list.
 
