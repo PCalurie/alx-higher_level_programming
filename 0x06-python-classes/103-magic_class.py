@@ -12,7 +12,7 @@ class MagicClass:
     def __init__(self, radius=0):
         """Initializes the MagicClass with the given radius.
         Args:
-            radius (float): The radius of the MagicClass circle. Default set as 0.
+            radius (float): The radius of the MagicClass circle. Default 0.
         Raises:
             TypeError: If the radius is not a num.
         """

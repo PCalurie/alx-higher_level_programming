@@ -3,7 +3,7 @@
 
 
 class Square:
-    """This class represents a square with private instance attribute of size"""
+    """This class represents a square with private instance attribute size"""
 
     def __init__(self, size=0):
         """Instanciate the square with the given size"""
@@ -44,7 +44,7 @@ class Square:
 
     def __ge__(self, other):
         """Comparison operator: >=
-        Check if area of self is greater than or equal to the area of the other"""
+        Check if area of self is > or = to the area of the other"""
         return self.area() >= other.area()
 
     def __lt__(self, other):
@@ -54,5 +54,5 @@ class Square:
 
     def __le__(self, other):
         """Comparison operator: <=
-        Check if the area of self is less than or equal to the area of the other"""
+        Check if the area of self is < or = to the area of the other"""
         return self.area() <= other.area()

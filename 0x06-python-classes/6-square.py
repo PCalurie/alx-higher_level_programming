@@ -12,7 +12,7 @@ class Square:
     """
 
     def __init__(self, size=0, position=(0, 0)):
-        """This method instanciates the square with the given size and position"""
+        """This method instanciates the square with size and position"""
         self.size = size
         self.position = position
 
@@ -49,7 +49,7 @@ class Square:
         return self.__size ** 2
 
     def my_print(self):
-        """This method prints error in stdout the square with the character #"""
+        """This method prints error in stdout square with the character #"""
         if self.__size == 0:
             print()
         else:
