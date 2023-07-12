@@ -4,13 +4,13 @@ from a utf-8 file """
 
 
 def write_file(filename="", text=""):
-    """ Function that writes from a utf-8 file
+    """ Function that writes to a utf-8 file
 
     Args:
         filename: filename
         text: text to be written
 
-    Return:
+    Returns:
         Number of char written in a file
 
     """
