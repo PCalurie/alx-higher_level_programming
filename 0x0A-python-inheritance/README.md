@@ -4,3 +4,4 @@
 - `2-is_same_class.py` - used the function type to check if the object is an instance of a specified class
 - `3-is_kind_of_class.py` - used insinstance function to check if an oject is an instance of a specified class or that which it was inherited from
 - `4-inherits_from.py` - issubclass function checks whether the type of obj (obtained using type(obj)) is a subclass of a_class. The issubclass() function returns True if the first argument (a type) is a subclass of the second argument, and False otherwise.
+- `5-base_geometry.py` - writing a new class
