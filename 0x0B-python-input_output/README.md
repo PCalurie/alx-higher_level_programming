@@ -6,3 +6,4 @@
 - `4-from_json_string.py` - an object of python data structure returned as a _JSON_ representation
 - `5-save_to_json_file.py` - writes a text file to an object using _JSON representation_
 - `6-load_from_json_file.py` - creates an object from a _"JSON file"_
+- `7-add_item.py` - Overall, this code aims to collect command-line arguments, add them to a list (or initialize a new list if the file doesn't exist), and save the list to a JSON file for future use or persistence.
