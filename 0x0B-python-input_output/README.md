@@ -5,3 +5,4 @@
 - `3-to_json_string.py` - converts a string in to json format
 - `4-from_json_string.py` - an object of python data structure returned as a _JSON_ representation
 - `5-save_to_json_file.py` - writes a text file to an object using _JSON representation_
+- `6-load_from_json_file.py` - creates an object from a _"JSON file"_
