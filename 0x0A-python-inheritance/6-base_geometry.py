@@ -1,15 +1,10 @@
 #!/usr/bin/python3
-"""
-This scripts writes and defines a new class
-"""
+"""This module defines a class BaseGeometry with a public instance area"""
 
 
 class BaseGeometry:
-    """
-    defining class with an exception
-    """
+    """A parent class for geometry objects"""
+
     def area(self):
-        """
-        raise an exception
-        """
-        raise Exception("area() is not implementeod")
+        """Raises an exception with the message area() if not successful"""
+        raise Exception("area() is not implemented")
