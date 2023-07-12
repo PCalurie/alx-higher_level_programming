@@ -9,10 +9,10 @@ def read_file(filename=""):
         filename: filename
 
     Raises
-        Exception: when the file can be opened
+        Exception: when the file cannot be opened
 
     """
 
     with open(filename, 'r', encoding="utf-8") as f:
         contents = f.read()
-        print(cotents, end="")
+        print(contents, end="")
