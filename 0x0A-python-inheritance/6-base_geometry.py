@@ -2,6 +2,8 @@
 """
 This scripts writes and defines a new class
 """
+
+
 class BaseGeometry:
     """
     defining class with an exception
