@@ -12,3 +12,4 @@
 - `10-square.py` - inherits attributes from _10-square.py_ and instanciates a size of the class square and returens and its area
 - `11-square.py` - defines the area of square and prints a string description specified
 - `100-my_int.py` - a function is not complacent; a rebel
+- `101-add_attribute.py` - add attributes and check if the attributre is available using _hasattr_ and _setattr_ to set then if not possible raise a type err 
