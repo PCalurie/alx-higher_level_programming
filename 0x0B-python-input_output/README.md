@@ -8,3 +8,4 @@
 - `6-load_from_json_file.py` - creates an object from a _"JSON file"_
 - `7-add_item.py` - Overall, this code aims to collect command-line arguments, add them to a list (or initialize a new list if the file doesn't exist), and save the list to a JSON file for future use or persistence.
 - `8-class_to_json.py` - returns a dictionary representation of an object for JSON serialization. Please note that this implementation assumes that the obj being serialized has a __dict__ attribute that holds all the relevant data to be serialized. This approach may not work for objects that don't follow this structure.
+- `9-student.py` - it has a Public method that retrieves a dictionary representation of a Student instance _(same as 8-class_to_json.py)_
