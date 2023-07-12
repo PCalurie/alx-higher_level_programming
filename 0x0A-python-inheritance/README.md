@@ -11,3 +11,4 @@
 - `9-rectangle.py` - defines the area of rectangle and prints a string description specified
 - `10-square.py` - inherits attributes from _10-square.py_ and instanciates a size of the class square and returens and its area
 - `11-square.py` - defines the area of square and prints a string description specified
+- `100-my_int.py` - a function is not complacent; a rebel
