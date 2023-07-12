@@ -6,3 +6,8 @@
 - `4-inherits_from.py` - issubclass function checks whether the type of obj (obtained using type(obj)) is a subclass of a_class. The issubclass() function returns True if the first argument (a type) is a subclass of the second argument, and False otherwise.
 - `5-base_geometry.py` - writing a new class
 - `6-base_geometry.py` - raising an exception
+- `7-base_geometry.py` - raises a type error and value error for inputed value of a given instance
+- `8-rectangle.py` - instanciates a class rectangle and validates its with and height to be ints and assigns them private attributes
+- `9-rectangle.py` - defines the area of rectangle and prints a string description specified
+- `10-square.py` - inherits attributes from _10-square.py_ and instanciates a size of the class square and returens and its area
+- `11-square.py` - defines the area of square and prints a string description specified
