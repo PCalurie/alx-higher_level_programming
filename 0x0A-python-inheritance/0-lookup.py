@@ -20,6 +20,6 @@ def lookup(obj):
     # loop through the elements of in the object
     for element in dir(obj):
         # append the element to the list
-        names.append(name)
+        elements.append(element)
     # return the list of elements
-    return names
+    return elements
