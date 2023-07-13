@@ -11,7 +11,7 @@ def pascal_triangle(n):
         n (int): The number of rows in the triangle
 
     Returns:
-        list of list of int: The Pascal’s triangle 
+        list of list of int: The Pascal’s triangle
     """
     # Returns an empty list if n <= 0
     if n <= 0:
@@ -32,4 +32,4 @@ def pascal_triangle(n):
         curr_row.append(1)
         triangle.append(curr_row)
 
-        return triangle
+    return triangle
