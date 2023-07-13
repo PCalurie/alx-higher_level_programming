@@ -12,3 +12,5 @@
 - `10-student.py` - has a public method def to_json(self, attrs=None): that retrieves a dictionary representation of a Student instance (same as 8-class_to_json.py):
 	- If attrs is a list of strings, only attribute names contained in this list must be retrieved.
 	- Otherwise, all attributes must be retrieved
+- `11-student.py` - Overall, this code defines a Student class with methods to create student instances, obtain a dictionary representation of the student object, and reload the attributes from a JSON dictionary.
+- `12-pascal_triangle.py` - It uses nested lists to represent the triangle and iteratively calculates each row based on the previous row.
