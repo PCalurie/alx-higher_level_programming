@@ -49,3 +49,4 @@ But it can be very hard if:
 - You don't have strong C knowledge.
 guillaume@ubuntu:~/0x0B$
 ```
+- `101-stats.py` - a script that reads stdin line by line and computes metrics
