@@ -91,11 +91,11 @@ class Base:
         filename = classes.__name__ + ".csv"
         with open(filename, 'w', newline='') as csvfile:
             csv_writer = csv.writer(csvfile)
-            if classes.__name__ is "Rectangle":
+            if classes.__name__ == "Rectangle":
                 for obj in list_ob:
                     csv_writer.writerow([obj.id, obj.width, obj.height,
                                          obj.x, obj.y])
-            elif classes.__name__ is "Square":
+            elif classes.__name__ == "Square":
                 for obj in list_ob:
                     csv_writer.writerow([obj.id, obj.size, obj.x, obj.y])
 
@@ -109,14 +109,14 @@ class Base:
         with open(filename, 'r') as csvfile:
             csv_reader = csv.reader(csvfile)
             for args in csv_reader:
-                if classes.__name__ is "Rectangle":
+                if classes.__name__ == "Rectangle":
                     dictionary = {
                                     "id": int(args[0]),
                                     "width": int(args[1]),
                                     "height": int(args[2]),
                                     "x": int(args[3]),
                                     "y": int(args[4])}
-                elif classes.__name__ is "Square":
+                elif classes.__name__ == "Square":
                     dictionary = {
                                     "id": int(args[0]),
                                     "size": int(args[1]),
